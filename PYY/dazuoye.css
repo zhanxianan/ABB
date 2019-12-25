@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2019-12-23 10:07:48
 * @Last Modified by:   lenovo
-* @Last Modified time: 2019-12-25 19:20:30
+* @Last Modified time: 2019-12-25 19:36:32
 */
 *{
 	padding: 0;
@@ -11,9 +11,9 @@
 ul,li{
 	list-style: none;
 }
-body{
-	background-color: #FFDDAA;
+#bos{
 	width: 1260px;
+	background-color: #FFDDAA;
 	margin: 0 auto;
 }
 .top{
