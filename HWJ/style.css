@@ -1,0 +1,293 @@
+/*
+* @Author: 10709
+* @Date:   2019-12-17 21:40:48
+* @Last Modified by:   10709
+* @Last Modified time: 2019-12-24 11:30:57
+*/
+body{
+	width: 100%;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.logo{
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.logo>img{
+	height: 150px;
+}
+.ull{
+	position: absolute;
+	left:130px;
+	float: left;
+	height: 25px;}
+.ull>li{
+	text-align: center;
+	font-family: 'KaiTi';
+	font-size: 20px;/* 
+	border-radius: 10px;
+	border: 1px solid black; */
+	font-weight: bold;
+	float: left;
+	width: 180px;
+	margin-left: 16px;
+	height: 20px;
+}
+.box{
+	width: 1260px;
+	height: 650px;
+	border: 1px solid red;
+	margin-top: 25px;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8890px;
+	height: 650px;
+	position: absolute;
+	left: -1270px;
+}
+.slide{
+	width: 1270px;
+	overflow: hidden;
+	float: left;
+}
+.slide>img{
+	width: 1270px;
+	height: 650px;
+}
+.box>span{
+	display: block;
+	width: 100px;
+	height: 80px;
+	text-align: center;
+	cursor: pointer;
+	top: 250px;
+	line-height: 80px;
+	background: pink;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+#div1{
+	height: 600px;
+}
+.wenzi1{
+	width: 700px;
+	text-align: center;
+	margin: 90px 0px 0px 30px;
+	line-height: 1.5em;
+	float: left;
+
+}
+.wenzi>p{
+	text-align: left;
+}
+.jianjie>img{
+	float: left;
+	height: 250px;
+}
+.nei{
+	width: 500px;
+	position: absolute;
+	left: -500px;
+}
+.wenzi1>p{
+	font-family: '宋体';
+	text-indent:5px ;
+}
+.imgs>img{
+	position: relative;
+	left: 30px;
+}
+#div2{
+	width: 1260px;
+	height: 1000px;
+	padding: 30px 0 0 0;
+}
+.title{
+	text-align: center;
+}
+.wenzi2{
+	width: 100%;
+}
+.music1{
+	float: left;
+	height: 500px;
+	overflow: hidden;
+}
+.music1>img{
+	float: left;
+}
+.music1Img{
+	width: 500px;
+	height: 500px;
+	/* border: 1px solid black; */
+	float: left;
+}
+.music1Img>img{
+	width: 500px;
+	height: 500px;
+}
+.music1Wen{
+	width: 615px;
+	height: 440px;
+	position: relative;
+	left: 700px;
+	float: left;
+	padding: 60px 25px 0 40px;
+	text-align: left;
+	text-indent: 25px;
+}
+.music1Wen>img{
+	position: relative;
+	left: 100px;
+}
+.music2{
+	float: left;
+}
+.music2Wen{
+	width: 740px;
+	height: 500px;
+	float: left;
+	padding: 0 5px 0 5px;
+	text-align: center;
+	text-indent: 25px;
+}
+.music2Wen>img{
+	margin: 20px 50px 0px 30px;
+}
+.Wenwen{
+	width: 500px;
+	height: 500px;
+	margin-left: 80px;
+	opacity: 0;
+}
+.music2Img{
+	width: 450px;
+	height: 450px;
+	float: left;
+}
+#div3{
+	width: 1260px;
+	height: 660px;
+	float: left;
+}
+.dancer{
+	text-align: center;
+}
+.dancer>img{
+	width: 265px;
+	height: 60px;
+}
+.danceImg{
+	width: 400px;
+	height: 600px;
+	float: left;
+	border: 1px solid black;
+}
+.danceWen{
+	width: 500px;
+	height: 550px;
+	/* border: 1px solid black; */
+	float: left;
+	padding: 50px 25px 0 25px;
+	text-align: center;
+	text-indent: 25px;
+	margin-left: 100px;
+	opacity: 0;
+
+}
+#big{
+	position:fixed;
+	width:200px;
+	height:300px;
+	left: 190px;
+	top: 2570px;
+	border:2px solid #ddd;
+	display:none;
+}
+.danceWen>p{
+	width: 500px;
+}
+.danceWen>img{
+	width: 300px;	
+	height: 280px;
+	position: absolute;	
+	right: 0px;
+}
+#div4{
+	width: 1260px;
+	height: 1100px;
+	/* border: 1px solid black; */
+	float: left;
+	overflow: hidden;
+}
+.div4>img{
+	float: left;
+}
+.actor{
+	width: 900px;
+	height: 600px;	
+	float: left;
+}
+.actor>img{
+	float: left;
+}
+.actorWen{
+	width: 600px;
+	height: 450px;
+	margin-left: 40px;
+	opacity: 0;
+	/* border: 1px solid black; */
+	float: left;
+	text-align: center;
+	padding: 150px 50px 0 50px ;
+}
+.actorWen>p{
+	text-indent: 25px;
+}
+.actor>img{
+	position: absolute;
+	right: 0px;
+}
+.actorImg{
+	width: 440px;
+	height: 600px;
+}
+.actortwo{
+	float: left;
+}
+.actortwo>img{
+	float: left;
+}
+.actor2Wen{
+	width: 500px;
+	height: 450px;
+	/* border: 1px solid black; */
+	text-align: center;
+	text-indent: 25px;
+	margin-top: 100px;
+	position: relative;
+	left: 900px;
+	float: left;
+}
+.actor2Wen>img{
+	margin-top: 100px;
+}
+.lst{
+	position: absolute;
+	right: 50px;
+}
