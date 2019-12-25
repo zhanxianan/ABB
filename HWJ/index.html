@@ -190,7 +190,7 @@
 		var actorWen=document.getElementById("actorWen");
 		var actor2Wen=document.getElementById("actor2Wen");
 		var danceWen=document.getElementById("danceWen");
-		if(h>770&&time!=1){
+		if(h>750&&time!=1){
 			time=1;
 			var timer=setInterval(function(){
 				var now = parseInt(getStyle(nei,'left'));
@@ -202,7 +202,7 @@
 				}
 			}, 30)
 		}
-		if(h>1370&&time2!=1){
+		if(h>1350&&time2!=1){
 			time2=1;
 			var timer2=setInterval(function(){
 				var now2 = parseInt(getStyle(music1Wen,'left'));
@@ -214,26 +214,26 @@
 				}
 			}, 30)
 		}
-		if(h>1970&&time3!=1){
+		if(h>1950&&time3!=1){
 			time3=1;
 			animate(Wenwen,{opacity:100});
 		}
-		if(h>2570&&time6!=1){
+		if(h>2550&&time6!=1){
 			time6=1;
 			animate(danceWen,{opacity:100});
 		}
-		if(h>3170&&time4!=1){
+		if(h>3150&&time4!=1){
 			time4=1;
 			animate(actorWen,{opacity:100});
 		}
-		if(h>3670&&time5!=1){
+		if(h>3650&&time5!=1){
 			time5!=1;
 			var timer5=setInterval(function(){
 				var now5 = parseInt(getStyle(actor2Wen,'left'));
-				if(now5 ==100){
+				if(now5 ==550){
 					clearInterval(timer5);
 				}else{
-					var speed=now5-2+'px';
+					var speed=now5-1+'px';
 					actor2Wen.style.left=speed;
 				}
 			}, 10)

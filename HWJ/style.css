@@ -231,7 +231,6 @@ ul,li{
 #div4{
 	width: 1260px;
 	height: 1100px;
-	/* border: 1px solid black; */
 	float: left;
 	overflow: hidden;
 }
@@ -268,7 +267,10 @@ ul,li{
 	height: 600px;
 }
 .actortwo{
+	width: 1270px;
 	float: left;
+	position: relative;
+	overflow: hidden;
 }
 .actortwo>img{
 	float: left;
@@ -280,8 +282,8 @@ ul,li{
 	text-align: center;
 	text-indent: 25px;
 	margin-top: 100px;
-	position: relative;
-	left: 900px;
+	position: absolute;
+	left: 1300px;
 	float: left;
 }
 .actor2Wen>img{
