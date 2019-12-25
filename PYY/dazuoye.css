@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2019-12-23 10:07:48
 * @Last Modified by:   lenovo
-* @Last Modified time: 2019-12-25 14:33:58
+* @Last Modified time: 2019-12-25 19:14:10
 */
 *{
 	padding: 0;
@@ -26,13 +26,22 @@ body{
 	vertical-align: middle;
 	margin-top: 5px;
 }
-ul li:first-child{
+/* ul li:first-child{
 	margin-left: 200px;
+} */
+.listop{
+	height: 25px;
+	width: 1200px;
+	margin-left: 180px;
+	text-align: center;
 }
 .list{
 	float: left;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+	margin-left: 80px;
 	font-size: 25px;
-	margin-right: 200px;
 	font-family: STHupo;
 }
 .box{
@@ -126,6 +135,7 @@ ul li:first-child{
 #block2{
 	height: 850px;
 	margin-top: 10px;
+	overflow: hidden;
 }
 .upimg2{
 	height: 150px;
@@ -168,6 +178,7 @@ ul li:first-child{
 }
 #block3{
 	height: 850px;
+	overflow: hidden;
 	margin-top: 10px;
 }
 .upimg3{
@@ -228,7 +239,9 @@ ul li:first-child{
 	text-align: center;
 }
 #outhidden{
-	height: 20px;
+	height: 80px;
+	width: 20px;
+	border: 1px solid black;
 	margin-top: 10px;
 	background-color:#FFDDAA;
 	color:#FFBB66;
