@@ -1,8 +1,8 @@
 /*
 * @Author: Lenovo
 * @Date:   2019-12-24 16:03:21
-* @Last Modified by:   Lenovo
-* @Last Modified time: 2019-12-24 16:03:49
+* @Last Modified by:   zhanxianan
+* @Last Modified time: 2019-12-25 12:15:24
 */
 var width = parseInt(window.screen.availWidth) - 30;
 var lwidth = -width;
@@ -36,7 +36,10 @@ var wsndtxt1 = document.getElementsByClassName("wsndtxt1");
 var zshytxt1 = document.getElementsByClassName("zshytxt1");
 var text1 = document.getElementsByClassName("text1");
 var LI = text1[0].children[0];
-console.log(LI);
+var hdsy = document.getElementsByClassName("hdsy")[0];
+hdsy.onclick = function(){
+	window.location.href = "http://www.baidu.com";
+}
 var bigbox = document.getElementsByClassName("big")[0];
 LI.onmouseover = (function(){
 	return function(){
