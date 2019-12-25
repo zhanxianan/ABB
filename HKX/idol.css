@@ -1,0 +1,290 @@
+/*
+* @Author: 黄凯欣
+* @Date:   2019-12-21 22:32:23
+* @Last Modified by:   黄凯欣
+* @Last Modified time: 2019-12-25 12:55:20
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+	background-color: #D2E9FF;
+}
+.top{
+	height: 150px;
+	text-align: center;
+}
+.logo{
+	height: 150px;
+}
+.nav{
+	height: 30px;
+	width: 750px;
+	margin: 0 auto;
+}
+
+#crumb{
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+#crumb li{
+	color: #000;
+    font-size: 18px;
+    float: left; 
+    width: 150px;
+    font-family:STKaiti;
+}
+.move{
+	margin-top: 10px;
+	height: 600px;
+	width: 1260px;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider{
+	position: absolute;
+	width: 6300px;
+	left: -1260px;
+}
+.slide{
+	width: 1260px;
+	float: left;
+	overflow: hidden;
+}
+
+.move>span{
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 280px;
+	line-height: 50px;
+	background:#ccc;
+	font-size: 30px;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.title{
+	height: 80px;
+	width: 400px;
+	margin-top: 20px;
+	margin: 0 auto;
+}
+.title img{
+	margin-top: 10px;
+	height: 80px;
+	width: 400px;
+
+}
+.idol1{
+	height: 850px;
+	margin-top: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.img1{
+	width: 600px;
+	height: 850px;
+	float: left;
+}
+.text1{
+	float:right;
+	width: 650px;
+	height: 500px;
+	margin: 0 auto;
+	position: absolute;
+	left: 600px;
+	right: -1350px;
+}
+#text11{
+	width: 100px;
+	height: 40px;
+	float:right;
+	margin-right:400px; 
+	margin-top: 50px;
+}
+#wrap1{
+	width: 600px;
+	height: 400px;
+	margin-top: 80px;
+	float: right;
+	margin-right: 50px;
+}
+#text12{
+	font-family: KaiTi; 
+	font-size:18px; 
+	color: #5B5B5B;
+}
+#text13{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	margin-top: 600px;
+}
+#btn1{
+	width: 80px;
+	height: 30px;
+	border: 0px;
+	font-family: KaiTi;
+	font-size: 15px;
+	background-color:#C4E1FF;
+	border-radius: 3px;
+	border: 0px solid #FFFFFF;
+}
+
+.idol2{
+	height: 600px;
+	margin-top: 20px;
+}
+.img2{
+	width: 620px;
+	height: 580px;
+	float: left;
+}
+.text2{
+	float: right;
+	margin-right: 0px;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+#text21{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-right:300px; 
+}
+#wrap2{
+	width: 500px;
+	height: 500px;
+	margin-top: 80px;
+	float: right;
+	margin-right: 50px;
+}
+#text22{
+	font-family: KaiTi; 
+	font-size:18px;
+	opacity: 0;
+	color: #5B5B5B;
+}
+#text23{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	margin-top: 50px;
+}
+#btn2{
+	width: 80px;
+	height: 30px;
+	border: 0px;
+	background-color:#C4E1FF;
+	border-radius: 3px;
+	border: 0px solid #FFFFFF;
+	font-family: KaiTi;
+	font-size: 15px;
+}
+.idol3{
+	height: 640px;
+	position: relative;
+	overflow: hidden;
+}
+.img3{
+	width: 450px;
+	height: 640px;
+	float: left;
+}
+.text3{
+	float: right;
+	margin:0 auto;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: 640px;
+	right: -1400px;
+}
+
+#text31{
+	width: 200px;
+	height: 40px;
+	float: right;
+	margin-right:350px; 
+}
+#wrap3{
+	width: 600px;
+	height: 700px;
+	margin-top: 40px;
+	float: right;
+	margin-right: 100px;
+}
+#text32{
+	font-family: KaiTi; 
+	font-size:18px;
+	color: #5B5B5B;
+}
+#text33{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	left: -100px;
+	margin-top: 380px;
+}
+#btn3{
+	width: 80px;
+	height: 30px;
+	border: 0px;
+	background-color: #C4E1FF;
+	border-radius: 3px;
+	border: 0px solid #FFFFFF;
+	font-family: KaiTi;
+	font-size: 15px;
+}
+
+#bottom{
+	width: 1260px;
+	height: 80px;
+	margin: 0 auto;
+	background-color: #D2E9FF;
+}
+#bottom h1{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	margin-left: 550px;
+}
+#bottom p{
+	text-align: center;
+	width: 1200px;
+	font-size: 16px;
+	color: #5B5B5B; 
+}
+#text{
+	text-align: center;
+}
+
+#myTopBtn{
+	width: 30px;
+	bottom: 20px;
+    right: 10px;
+    position:fixed;
+    border: 0px;
+    outline: none;
+    background-color:#84C1FF;
+    border-radius: 3px;
+}
