@@ -1,0 +1,234 @@
+/*
+* @Author: Lenovo
+* @Date:   2019-12-24 16:00:12
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2019-12-24 16:02:51
+*/
+body{
+	background-color: #FFE6FF;
+}
+.top{
+	height: 150px;
+	text-align: center;
+}
+.logo{
+	height: 150px;
+}
+.option{
+	list-style: none;
+}
+.nav{
+	width: 720px;
+	margin: 0 auto;
+	height: 50px;
+	vertical-align:middle;
+}
+.option{
+	width: 170px;
+	float: left;
+	font-family: KaiTi;
+	font-weight: bold;
+	font-size: 25px;
+}
+.bottom{
+	height: 100px;
+	background-color: #5B5B5B;
+	margin-top: 20px;
+}
+.box{
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	height: 600px;
+	position: absolute;
+}
+.slide{
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 100px;
+	height:100px;
+	text-align: center;
+	cursor: pointer;
+	top: 200px;
+	line-height: 100px;
+	background: #4F4F4F;
+	font-size: 50px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+	color: white;
+}
+#right{
+	right: 30px;
+	color: white;
+}
+#div1{
+	height: 850px;
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.intro{
+	height: 150px;
+	text-align: center;
+}
+.image1{
+	height: 150px;
+}
+.text{
+	width: 1200px;
+	margin: 0 auto;
+	height: 700px;
+	position: relative;
+}
+.text1{
+	width: 600px;
+	height: 700px;
+	float: left;
+	margin-left: 5px;
+}
+.CLN{
+	width: 600px;
+	height: 700px;
+}
+.text2{
+	width: 600px;
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	position: absolute;
+	right: -700px;
+}
+.cln{
+	width: 200px;
+	margin-left: 250px;
+}
+.text3{
+	margin-left: 40px;
+	color: #6C6C6C;
+}
+#div2{
+	height: 1650px;
+	margin-top: 10px;
+}
+.zj{
+	height: 150px;
+	text-align: center;
+}
+.zjimg{
+	width: 350px;
+}
+.zjjs{
+	width: 1200px;
+	height: 1500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.wsndimg{
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+.wsndtxt{
+	width: 600px;
+	height: 500px;
+	float: left;
+	overflow: hidden;
+}
+.wsndbt{
+	margin-left: 250px;
+}
+.wsndtxt1{
+	margin-left: 20px;
+	font-size: 18px;
+	color: #6C6C6C;
+	opacity: 0;
+}
+.ybswimg{
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+.ybswtxt{
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+.ybswbt{
+	margin-left: 250px;
+}
+.ybswtxt1{
+	font-size: 18px;
+	color: #6C6C6C;
+	opacity: 0;
+	margin-left: 20px;
+}
+.zshyimg{
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+.zshytxt{
+	width: 600px;
+	height: 500px;
+	float: left;
+}
+.zshybt{
+	margin-left: 250px;
+}
+.zshytxt1{
+	font-size: 18px;
+	color: #6C6C6C;
+	margin-left: 20px;
+	opacity: 0;
+}
+#div3{
+	height: 850px;
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.dybt{
+	height: 150px;
+	text-align: center;
+}
+.cjhyyimg{
+	width: 600px;
+	height: 700px;
+	float: left;
+}
+.cjhyytxt{
+	width: 600px;
+	height: 700px;
+	float: left;
+	position: absolute;
+	right: -600px;
+}
+.cjimg{
+	height: 150px;
+	margin-left: 150px;
+}
+.cjtxt{
+	margin-left: 20px;
+	font-size: 20px;
+	color: #6C6C6C;
+}
+h2{
+	font-family: KaiTi;
+}
+.big{
+	position: fixed;
+	width: 300px;
+	height: 350px;
+	border: 2px solid white;
+}
