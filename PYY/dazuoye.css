@@ -2,7 +2,7 @@
 * @Author: lenovo
 * @Date:   2019-12-23 10:07:48
 * @Last Modified by:   lenovo
-* @Last Modified time: 2019-12-25 19:39:33
+* @Last Modified time: 2019-12-25 19:49:04
 */
 *{
 	padding: 0;
@@ -227,7 +227,7 @@ body{
     width:60px; 
     height:20px;
     position:fixed; 
-    right:25px; 
+    right:45px; 
     bottom:10px;
     border: 0; 
     background-color:#FFA488;
