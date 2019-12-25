@@ -135,6 +135,9 @@
 			<img class="lst" src="images/yy.png" alt="">
 		</div>
 	</div>
+	<div class="hdsy">
+		<p>回到首页</p>
+	</div>
 </body>
 <script type="text/javascript">
 	var box=document.getElementById("box");
@@ -280,6 +283,10 @@
 	function goTo(s){
 		location.href = s; 
 	}
-	console.log(window.screen.availWidth);
+	
+	var hdsy = document.getElementsByClassName("hdsy")[0];
+	hdsy.onclick = function(){
+		window.location.href="..//HKX/idol.html";
+	}
 </script>
 </html>
