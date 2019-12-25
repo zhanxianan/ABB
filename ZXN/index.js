@@ -2,7 +2,7 @@
 * @Author: Lenovo
 * @Date:   2019-12-24 16:03:21
 * @Last Modified by:   zhanxianan
-* @Last Modified time: 2019-12-25 13:34:16
+* @Last Modified time: 2019-12-25 13:51:27
 */
 var width = parseInt(window.screen.availWidth) - 30;
 var lwidth = -width;
@@ -38,7 +38,7 @@ var text1 = document.getElementsByClassName("text1");
 var LI = text1[0].children[0];
 var hdsy = document.getElementsByClassName("hdsy")[0];
 hdsy.onclick = function(){
-	window.open("..//HKX/idol.html","idol","","false");
+	window.location.href = "..//HKX/idol.html";
 }
 var bigbox = document.getElementsByClassName("big")[0];
 LI.onmouseover = (function(){
